@@ -14,7 +14,7 @@ public class DemoApplication {
 	public static ConfigurableApplicationContext ac;
 	public static void main(String[] args) {
 		ac = SpringApplication.run(DemoApplication.class, args);
-		log.info("devBean:" + ac.getBean("devBean"));
+//		log.info("mtFilter:" + ac.getBean("mtFilter"));
 //		log.info("prodBean:" + ac.getBean("prodBean"));
 	}
 
